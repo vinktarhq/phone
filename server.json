@@ -3,7 +3,7 @@
   "name": "ai.vinktar/mcp",
   "title": "vinktar.ai",
   "description": "A phone for your AI agent: it calls businesses for you and reports what they said.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://vinktar.ai/docs/claude",
   "icons": [{ "src": "https://vinktar.ai/brand/mark-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
   "repository": { "url": "https://github.com/vinktarhq/phone", "source": "github" },

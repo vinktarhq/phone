@@ -1,6 +1,6 @@
 ---
 name: phone
-description: Place a phone call to a business for the person you are working for, through vinktar.ai, and report what the business said. Use when asked to call, phone or ring a business, to book, move or cancel an appointment or reservation by phone, to ask a business a question that needs a call, or to check what happened on an earlier vinktar.ai call.
+description: Place a phone call to a business for the person you are working for, through vinktar.ai, and report what the business said. Use when asked to call, phone or ring a business, to book, move or cancel an appointment or reservation by phone, to ask a business a question that needs a call, to check what happened on an earlier vinktar.ai call, or to set up, connect or try out vinktar.ai.
 ---
 
 # Call a business with vinktar.ai
@@ -24,12 +24,26 @@ so being there is not enough: call `get_credits_balance`.
     vinktar.ai is not listed, add it (Add custom connector, address `https://mcp.vinktar.ai/mcp`).
     Choose Connect. Then start a new chat and ask again: one that was already open may not pick
     the connection up.
-  - Claude Code in a terminal or an editor: `/mcp`, pick `vinktar-ai`, choose Authenticate.
+  - Claude Code in a terminal or an editor: `/mcp`, pick the vinktar.ai entry, choose Authenticate.
   - Codex: `codex mcp login vinktar-ai`. Cursor asks on its own.
   - Anything else: add `https://mcp.vinktar.ai/mcp` as an MCP server. It finds the sign-in itself.
 
   In the browser they sign in or make an account on the spot (nobody has to register first), keep
   "Place calls" switched on, and approve. The first three calls are free.
+
+### When there is nothing to call about yet
+
+Someone who has just connected often has no call in mind. Do not place a call to show that it
+works, and do not offer a number to try. Suggest what they could hand over, in terms of their own
+day, and wait for them to pick one:
+
+- an appointment to book, move or cancel: the dentist, the garage, the hairdresser;
+- a table to reserve, or a booking to change;
+- a question that needs a person: whether an order has shipped, whether something is in stock,
+  what a job would cost, whether they are open on Sunday;
+- a call they have been putting off.
+
+Ask which business it is and what they want out of the call, then go to step 2.
 
 ## 2. Check the number
 
@@ -37,7 +51,9 @@ Find the business and its phone number yourself: search, the person's notes, the
 site. Then call `check_number` with the number in international format (`+14155550100`).
 
 It says whether the line can be called now, and why not when it cannot. Only business lines are
-called, in the countries that are open, in that business's working hours. A mobile number, a
+called, in the countries that are open, in that business's working hours. For now that is the
+United States, on weekdays, in the middle of the business's day; `check_number` is the authority,
+and when a line is closed it says when the next window opens. Tell the person that time. A mobile number, a
 private person, a premium-rate line and a business that asked not to be called are all refused.
 Do not look for a way around a refusal: tell the person what it said.
 

@@ -1,0 +1,15 @@
+{
+  "name": "vinktar-ai",
+  "description": "vinktar.ai: a phone line for Claude.",
+  "owner": {
+    "name": "Vinktar",
+    "url": "https://vinktar.ai"
+  },
+  "plugins": [
+    {
+      "name": "vinktar-ai",
+      "source": "./",
+      "description": "Have Claude call a business for you and report what they said."
+    }
+  ]
+}

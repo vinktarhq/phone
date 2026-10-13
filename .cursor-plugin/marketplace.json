@@ -1,0 +1,11 @@
+{
+  "name": "vinktar-ai",
+  "owner": { "name": "Vinktar" },
+  "metadata": { "description": "vinktar.ai for Cursor: the phone skill and the MCP connection." },
+  "plugins": [
+    {
+      "name": "vinktar-ai",
+      "source": "./"
+    }
+  ]
+}

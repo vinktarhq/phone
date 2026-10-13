@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.vinktar/mcp",
+  "title": "vinktar.ai",
+  "description": "A phone line for Claude: it calls businesses for you and reports what they said.",
+  "version": "0.1.0",
+  "websiteUrl": "https://vinktar.ai/docs/claude",
+  "repository": { "url": "https://github.com/vinktarhq/phone", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.vinktar.ai/mcp" }]
+}

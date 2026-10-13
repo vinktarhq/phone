@@ -1,4 +1,4 @@
-# vinktar.ai: a phone line for Claude
+# vinktar.ai: a phone for your AI agent
 
 [vinktar.ai](https://vinktar.ai?ref=agent-plugin) lets your agent call a business for you. You say
 what you need, it shows you the plan, and it dials only after you say yes. A voice agent makes the

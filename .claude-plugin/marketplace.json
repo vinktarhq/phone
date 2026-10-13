@@ -1,6 +1,6 @@
 {
   "name": "vinktar-ai",
-  "description": "vinktar.ai: a phone line for Claude.",
+  "description": "vinktar.ai: a phone for your AI agent.",
   "owner": {
     "name": "Vinktar",
     "url": "https://vinktar.ai"
@@ -9,7 +9,7 @@
     {
       "name": "vinktar-ai",
       "source": "./",
-      "description": "Have Claude call a business for you and report what they said."
+      "description": "Have your agent call a business for you and report what they said."
     }
   ]
 }

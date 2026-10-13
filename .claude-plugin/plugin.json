@@ -3,7 +3,7 @@
   "name": "vinktar-ai",
   "displayName": "vinktar.ai",
   "version": "0.1.0",
-  "description": "A phone line for Claude: it calls businesses for you and tells you what they said. After adding the plugin: 1. Connect vinktar.ai (you can make your account there; three calls are free). 2. Ask Claude: \"Call the dentist and move my appointment to Tuesday.\" It shows you the plan, dials only after you say yes, and reports the outcome with the transcript.",
+  "description": "A phone for your AI agent: it calls businesses for you and tells you what they said. After adding the plugin: 1. Connect vinktar.ai (you can make your account there; three calls are free). 2. Ask Claude: \"Call the dentist and move my appointment to Tuesday.\" It shows you the plan, dials only after you say yes, and reports the outcome with the transcript.",
   "author": { "name": "Vinktar", "url": "https://vinktar.ai" },
   "homepage": "https://vinktar.ai/docs/claude-code",
   "privacyPolicyUrl": "https://vinktar.ai/legal/privacy",

@@ -1,14 +1,14 @@
 {
-  "name": "vinktar-ai",
+  "name": "dialify",
   "owner": {
     "name": "Vinktar"
   },
   "metadata": {
-    "description": "vinktar.ai for Cursor: the phone skill and the MCP connection."
+    "description": "Dialify for Cursor: the phone skill and the MCP connection."
   },
   "plugins": [
     {
-      "name": "vinktar-ai",
+      "name": "dialify",
       "source": "./",
       "logo": "assets/icon.png"
     }

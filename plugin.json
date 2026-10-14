@@ -1,31 +1,31 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "vinktar-ai",
-  "version": "0.1.4",
-  "description": "A phone for your AI agent: it calls businesses for you and tells you what they said. After adding the plugin: 1. Connect vinktar.ai (you can make your account there; three calls are free). 2. Ask your agent: \"Call the dentist and move my appointment to Tuesday.\" It shows you the plan, dials only after you say yes, and reports the outcome with the transcript.",
+  "name": "dialify",
+  "version": "0.2.0",
+  "description": "A phone for your AI agent: it calls businesses for you and tells you what they said. After adding the plugin: 1. Connect Dialify (you can make your account there; three calls are free). 2. Ask your agent: \"Call the dentist and move my appointment to Tuesday.\" It shows you the plan, dials only after you say yes, and reports the outcome with the transcript.",
   "author": {
     "name": "Vinktar",
-    "url": "https://vinktar.ai"
+    "url": "https://dialify.io"
   },
-  "homepage": "https://vinktar.ai/docs/claude-code",
+  "homepage": "https://dialify.io/docs/claude-code",
   "repository": "https://github.com/vinktarhq/phone",
   "license": "MIT",
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "vinktar.ai",
+        "displayName": "Dialify",
         "shortDescription": "A phone for your AI agent",
-        "longDescription": "vinktar.ai lets your agent call a business for you. You say what you need, it shows you the plan word for word, and it dials only after you say yes. A voice agent makes the call, opens by saying who it is calling for, that it is an AI assistant and that the line is recorded, and the outcome and transcript come back into your chat. It calls business lines only, in their working hours, agrees to nothing you did not allow, and never handles payment details or codes. A booking is reported as confirmed only when the business said it back. Three free calls of up to three minutes; after that prepaid credits, charged only for time spent talking to a person.",
+        "longDescription": "Dialify lets your agent call a business for you. You say what you need, it shows you the plan word for word, and it dials only after you say yes. A voice agent makes the call, opens by saying who it is calling for, that it is an AI assistant and that the line is recorded, and the outcome and transcript come back into your chat. It calls business lines only, in their working hours, agrees to nothing you did not allow, and never handles payment details or codes. A booking is reported as confirmed only when the business said it back.",
         "developerName": "Vinktar",
         "category": "Productivity",
         "capabilities": [
           "Read",
           "Write"
         ],
-        "websiteURL": "https://vinktar.ai",
-        "supportURL": "https://vinktar.ai/support",
-        "privacyPolicyURL": "https://vinktar.ai/legal/privacy",
-        "termsOfServiceURL": "https://vinktar.ai/legal/terms",
+        "websiteURL": "https://dialify.io",
+        "supportURL": "https://dialify.io/support",
+        "privacyPolicyURL": "https://dialify.io/legal/privacy",
+        "termsOfServiceURL": "https://dialify.io/legal/terms",
         "defaultPrompt": [
           "Call my dentist and move Thursday's appointment to next week, mornings only.",
           "Call Bella Napoli and book a table for four on Friday at 7pm.",

@@ -1,11 +1,11 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "ai.vinktar/mcp",
-  "title": "vinktar.ai",
+  "name": "io.dialify/mcp",
+  "title": "Dialify",
   "description": "A phone for your AI agent: it calls businesses for you and reports what they said.",
-  "version": "0.1.4",
-  "websiteUrl": "https://vinktar.ai/docs/claude",
-  "icons": [{ "src": "https://vinktar.ai/brand/mark-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
+  "version": "0.2.0",
+  "websiteUrl": "https://dialify.io/docs/claude",
+  "icons": [{ "src": "https://dialify.io/brand/mark-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
   "repository": { "url": "https://github.com/vinktarhq/phone", "source": "github" },
-  "remotes": [{ "type": "streamable-http", "url": "https://mcp.vinktar.ai/mcp" }]
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.dialify.io/mcp" }]
 }

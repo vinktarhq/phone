@@ -1,5 +1,5 @@
 {
   "mcpServers": {
-    "vinktar-ai": { "type": "http", "url": "https://mcp.vinktar.ai/mcp?login" }
+    "dialify": { "type": "http", "url": "https://mcp.dialify.io/mcp?login" }
   }
 }

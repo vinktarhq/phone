@@ -1,9 +1,9 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "vinktar-ai": {
+    "dialify": {
       "type": "streamable-http",
-      "url": "https://mcp.vinktar.ai/mcp?login",
+      "url": "https://mcp.dialify.io/mcp?login",
       "extensions": {
         "com.openai": {
           "auth": {

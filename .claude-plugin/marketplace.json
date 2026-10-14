@@ -1,13 +1,13 @@
 {
-  "name": "vinktar-ai",
-  "description": "vinktar.ai: a phone for your AI agent.",
+  "name": "dialify",
+  "description": "Dialify: a phone for your AI agent.",
   "owner": {
     "name": "Vinktar",
-    "url": "https://vinktar.ai"
+    "url": "https://dialify.io"
   },
   "plugins": [
     {
-      "name": "vinktar-ai",
+      "name": "dialify",
       "source": "./",
       "description": "Have your agent call a business for you and report what they said."
     }

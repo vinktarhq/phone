@@ -1,9 +1,9 @@
 {
-  "name": "vinktar-ai",
-  "interface": { "displayName": "vinktar.ai" },
+  "name": "dialify",
+  "interface": { "displayName": "Dialify" },
   "plugins": [
     {
-      "name": "vinktar-ai",
+      "name": "dialify",
       "source": { "source": "local", "path": "./" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Productivity"

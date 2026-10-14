@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "dialify",
   "displayName": "Dialify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A phone for your AI agent: it calls businesses for you and tells you what they said. After adding the plugin: 1. Connect Dialify (you can make your account there; three calls are free). 2. Ask your agent: \"Call the dentist and move my appointment to Tuesday.\" It shows you the plan, dials only after you say yes, and reports the outcome with the transcript.",
   "author": { "name": "Vinktar", "url": "https://dialify.io" },
   "homepage": "https://dialify.io/docs/claude-code",

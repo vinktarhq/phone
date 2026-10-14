@@ -3,7 +3,7 @@
   "name": "io.dialify/mcp",
   "title": "Dialify",
   "description": "A phone for your AI agent: it calls businesses for you and reports what they said.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://dialify.io/docs/claude",
   "icons": [{ "src": "https://dialify.io/brand/mark-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
   "repository": { "url": "https://github.com/vinktarhq/phone", "source": "github" },
